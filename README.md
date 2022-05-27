@@ -2,11 +2,9 @@
 ## A Fun,Crazy Multiplayer soccer Game, with multi-characters with crazy skills!
 
 ![image](https://user-images.githubusercontent.com/19797490/170442151-fa584387-8c20-4823-b230-3646cee44586.png)
-![2022-05-26 18-50-46_Trim (1)](https://user-images.githubusercontent.com/19797490/170704832-38e1b8b1-2bbf-48f4-8490-83d70d1b8871.gif)
-
-
 Shoot ball is a online multiplayer soccer game which allows 2-6 player to compete and bet by using their coins as enterance fee.
 A portion will be taken from the smart contract as service fee. The winner of the game will share the pool of prize(all enterance fee - service fee).
+![2022-05-26 18-50-46_Trim (1)](https://user-images.githubusercontent.com/19797490/170704832-38e1b8b1-2bbf-48f4-8490-83d70d1b8871.gif)
 
 ## Game Controls
 WASD - movement control
