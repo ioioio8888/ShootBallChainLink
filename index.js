@@ -4,13 +4,12 @@ const {Pool} = require('pg')
 const ethers = require("ethers");
 const contract = require("./game.json");
 
+const contract_address = process.env.CONTRACT;
 const provider = new ethers.providers.JsonRpcProvider(
     "https://speedy-nodes-nyc.moralis.io/807fb02272b21813c742e8c5/eth/kovan"
 );
-const privateKey =
-    "8d528872351ea7e6120797eedac07f56d55ee5e77c3f0f212735bea09123410e";
+const privateKey = process.env.PRIVATEKEY;
 const wallet = new ethers.Wallet(privateKey, provider);
-const contract_address = "0x9B8139a4EE3C294a15c76Ec982AE8e8073a6108F";
 
 // init contract instance
 const game_contract = new ethers.Contract(
@@ -29,7 +28,7 @@ const pool = new Pool({
 
 exports.handler = async (event)  => {
 
-    const sql = "UPDATE game SET winner = ($1) WHERE guid = ($2) and winner IS NULL RETURNING guid,winner;";
+    const sql = "UPDATE game SET winner = ($1) WHERE guid = ($2) and winner = 0 RETURNING guid,winner;";
     const { winner , guid } = event;
     let values = [winner,guid];
     // let values = [1,'test_game_0']
@@ -41,7 +40,7 @@ exports.handler = async (event)  => {
         .query(sql, values)
         .then(res => {
             responseBody = res.rows[0];
-            console.log("DB Return : ",res.rows[0]);
+            console.log("DB Return : ",res.rows);
         })
         .catch(e => {
             responseBody = e.stack;
