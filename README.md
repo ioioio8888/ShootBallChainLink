@@ -1,7 +1,11 @@
 # ShootBall
+## A Fun,Crazy Multiplayer soccer Game, with multi-characters with crazy skills!
+## A Web3 game, make use of Chainlink Keeper
 
-## A Web3 Online Multiplayer game, make use of Chainlink Keeper
 ![image](https://user-images.githubusercontent.com/19797490/170442151-fa584387-8c20-4823-b230-3646cee44586.png)
+![2022-05-26 18-50-46_Moment](https://user-images.githubusercontent.com/19797490/170704220-08d44392-5e72-4683-bbd1-4e9e4aab5ea5.jpg)
+![2022-05-26 18-50-46_Trim (1)](https://user-images.githubusercontent.com/19797490/170704832-38e1b8b1-2bbf-48f4-8490-83d70d1b8871.gif)
+![2022-05-26 18-50-46_Moment2](https://user-images.githubusercontent.com/19797490/170704249-52b585f0-aae2-423e-895b-05e17fb39132.jpg)
 
 Shoot ball is a online multiplayer soccer game which allows 2-6 player to compete and bet by using their coins as enterance fee.
 A portion will be taken from the smart contract as service fee. The winner of the game will share the pool of prize(all enterance fee - service fee).
@@ -20,7 +24,6 @@ At least two people to test the game. It is a multiplayer game.
 Prerequisite: a browser with a wallet supports web3(with some Kovan testnet eth ~0.01eth) and connect to Ethereum Kovan Testnet(Recommend to use metaMask)
 
 1. Go to the link https://ioioio8888.github.io/ShootBallChainLink/
-![image](https://user-images.githubusercontent.com/19797490/170442151-fa584387-8c20-4823-b230-3646cee44586.png)
 2. Press the start button in starting screen.
 3. Connect your wallet which is in Kovan network.
 4. Wait for the game to load.
