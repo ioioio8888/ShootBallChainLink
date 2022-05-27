@@ -37,8 +37,11 @@ Prerequisite: a browser with a wallet supports web3(with some Kovan testnet eth 
 15. When the game ends, the prize will distributed to the corresponding players.
 
 ## Tech Stack
-### Blockchain
-  explain how chainlink keeper is implemented with sc & backend 
+### Blockchain - Smart Contract
+  The contract is built with Chainlink Keeper and API Request Job on Kovan.
+  The contract will distribute the reward automatically to each team members equally based on the game result got from the API.
+  After distributed all the reward to winning team, the contract would clean the records and restart for the next game.
+  
 
 ### Game
   Unity Engine - For game development
