@@ -20,20 +20,21 @@ At least two people to test the game. It is a multiplayer game.
 Prerequisite: a browser with a wallet supports web3(with some Kovan testnet eth ~0.01eth) and connect to Ethereum Kovan Testnet(Recommend to use metaMask)
 
 1. Go to the link https://ioioio8888.github.io/ShootBallChainLink/
-2. Press the start button in starting screen.
-3. Connect your wallet which is in Kovan network.
-4. Wait for the game to load.
-5. Type in a Display name if you are first time login.
-6. Click on custom game button
-7. (room master only)Type in a uniqe room name and click on the Create Game Button if you want to create a game as game master
-8. (join game only)Type in a room name that the room master has created and click on the join room button, or click on join game in the list of room
-9. Click on the ready game button.
-10. Interact with the smart contract in your wallet to pay the enterance fee.
-11. Pick your favourite character
-12. (room master only)Start the game when everyone is ready.
-13. if someone haven't paid the entarnce fee, a error message will show up.
-14. Enjoy the game.
-15. When the game ends, the prize will distributed to the corresponding players.
+2. Select the region on the top-right corner, which has to be the same as your testing partners.
+3. Press the start button in starting screen.
+4. Connect your wallet which is in Kovan network.
+5. Wait for the game to load.
+6. Type in a Display name if you are first time login.
+7. Click on custom game button
+8. (room master only)Type in a uniqe room name and click on the Create Game Button if you want to create a game as game master
+9. (join game only)Type in a room name that the room master has created and click on the join room button, or click on join game in the list of room
+10. Click on the ready game button.
+11. Interact with the smart contract in your wallet to pay the enterance fee.
+12. Pick your favourite character
+13. (room master only)Start the game when everyone is ready.
+14. if someone haven't paid the entarnce fee, a error message will show up.
+15. Enjoy the game.
+16. When the game ends, the prize will distributed to the corresponding players.
 
 ## Tech Stack
 ### Blockchain - Smart Contract
