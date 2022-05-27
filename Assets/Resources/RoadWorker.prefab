@@ -1,0 +1,477 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1126341666873618347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2724507771584251598}
+  - component: {fileID: 1891093490435502873}
+  m_Layer: 11
+  m_Name: RoadBlockCastMMF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2724507771584251598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126341666873618347}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6326475865577964817}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1891093490435502873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126341666873618347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da43522623d4704e979466dc7650b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Feedbacks: []
+  InitializationMode: 2
+  SafeMode: 3
+  Direction: 0
+  AutoChangeDirectionOnEnd: 0
+  AutoPlayOnStart: 0
+  AutoPlayOnEnable: 0
+  DurationMultiplier: 1
+  DisplayFullDurationDetails: 0
+  CooldownDuration: 0
+  InitialDelay: 0
+  CanPlayWhileAlreadyPlaying: 1
+  ChanceToPlay: 100
+  FeedbacksIntensity: 1
+  Events:
+    TriggerMMFeedbacksEvents: 0
+    TriggerUnityEvents: 1
+    OnPlay:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPause:
+      m_PersistentCalls:
+        m_Calls: []
+    OnResume:
+      m_PersistentCalls:
+        m_Calls: []
+    OnRevert:
+      m_PersistentCalls:
+        m_Calls: []
+    OnComplete:
+      m_PersistentCalls:
+        m_Calls: []
+  DebugActive: 0
+  FeedbacksList:
+  - id: 0
+  - id: 1
+  - id: 2
+  KeepPlayModeChanges: 0
+  PerformanceMode: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: MMF_ParticlesInstantiation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks}
+      data:
+        Active: 1
+        UniqueID: -1127803439
+        Label: Particles Instantiation
+        Channel: 0
+        Chance: 100
+        DisplayColor: {r: 0, g: 0, b: 0, a: 1}
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        Owner: {fileID: 1891093490435502873}
+        DebugActive: 0
+        Mode: 0
+        CachedRecycle: 1
+        ParticlesPrefab: {fileID: 198748354792542112, guid: 05541640f4492734a88f2b15963e15d2, type: 3}
+        RandomParticlePrefabs: []
+        ForceSetActiveOnPlay: 0
+        PositionMode: 0
+        InstantiateParticlesPosition: {fileID: 0}
+        TargetWorldPosition: {x: 0, y: 0, z: 0}
+        Offset: {x: 0, y: 2, z: 0}
+        NestParticles: 1
+        ApplyRotation: 1
+        ApplyScale: 0
+    00000001:
+      type: {class: MMF_ParticlesInstantiation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks}
+      data:
+        Active: 1
+        UniqueID: -1396839930
+        Label: Particles Instantiation
+        Channel: 0
+        Chance: 100
+        DisplayColor: {r: 0, g: 0, b: 0, a: 1}
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        Owner: {fileID: 1891093490435502873}
+        DebugActive: 0
+        Mode: 0
+        CachedRecycle: 1
+        ParticlesPrefab: {fileID: 19852676, guid: fe3d56eddfcbadb418d81896e5ec547c, type: 3}
+        RandomParticlePrefabs: []
+        ForceSetActiveOnPlay: 0
+        PositionMode: 1
+        InstantiateParticlesPosition: {fileID: 4891293544819992768}
+        TargetWorldPosition: {x: 0, y: 0, z: 0}
+        Offset: {x: 0, y: 0, z: 0}
+        NestParticles: 1
+        ApplyRotation: 0
+        ApplyScale: 0
+    00000002:
+      type: {class: MMF_ParticlesInstantiation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks}
+      data:
+        Active: 1
+        UniqueID: -764009816
+        Label: Particles Instantiation
+        Channel: 0
+        Chance: 100
+        DisplayColor: {r: 0, g: 0, b: 0, a: 1}
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        Owner: {fileID: 1891093490435502873}
+        DebugActive: 0
+        Mode: 0
+        CachedRecycle: 1
+        ParticlesPrefab: {fileID: 19847882, guid: 7a6827000bc06ef4bb03d34a0410ae0e, type: 3}
+        RandomParticlePrefabs: []
+        ForceSetActiveOnPlay: 0
+        PositionMode: 1
+        InstantiateParticlesPosition: {fileID: 4891293544819985304}
+        TargetWorldPosition: {x: 0, y: 0, z: 0}
+        Offset: {x: 0, y: 0, z: 0}
+        NestParticles: 1
+        ApplyRotation: 0
+        ApplyScale: 0
+--- !u!1001 &7447625425504467294
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2496725074590009179, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: Skill
+      value: 
+      objectReference: {fileID: 6637220243930246143}
+    - target: {fileID: 2646456652612515798, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646456652612534500, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646456652612552030, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646456652612561882, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646456652612565828, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646456652612745380, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644837, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645860, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_Name
+      value: RoadWorker
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645860, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936674656892776007, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: Skill
+      value: 
+      objectReference: {fileID: 2689618254493831065}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+--- !u!1 &6326475865577964666 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3501389943937645860, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+  m_PrefabInstance: {fileID: 7447625425504467294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6326475865577964817 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+  m_PrefabInstance: {fileID: 7447625425504467294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4891293544819992768 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2646456652612784542, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+  m_PrefabInstance: {fileID: 7447625425504467294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4891293544819985304 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2646456652612793030, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+  m_PrefabInstance: {fileID: 7447625425504467294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1812771058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6326475865577964666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b560bac7ddc5371429717a03e15e327e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillType: 0
+  SkillName: RestrictedArea
+  maxCoolDown: 30
+  maxStack: 0
+  skillIcon: {fileID: 21300000, guid: 16a86a7f581fc4dfb953e0df8ad3ecac, type: 3}
+  BlueRestrictedAreaPrefab: {fileID: 8922624672969676423, guid: a82e5dff7db1dcb47b3c12ecd1f6794d, type: 3}
+  RedRestrictedAreaPrefab: {fileID: 4024754533289625143, guid: 4eabc68468618b942a69c8d1f4674042, type: 3}
+  castStartFeedbackEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1891093490435502873}
+        m_TargetAssemblyTypeName: MoreMountains.Feedbacks.MMF_Player, MoreMountains.Feedbacks
+        m_MethodName: PlayFeedbacks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  castEndFeedbackEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1891093490435502873}
+        m_TargetAssemblyTypeName: MoreMountains.Feedbacks.MMF_Player, MoreMountains.Feedbacks
+        m_MethodName: StopFeedbacks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2689618254493831065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6326475865577964666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61816b720b9c0614da6bc1a7c67ba5d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillType: 0
+  SkillName: RoadConstruct
+  maxCoolDown: 30
+  maxStack: 0
+  skillIcon: {fileID: 21300000, guid: b5a5c63efa338384c8385955beb61879, type: 3}
+  RoadConstructionPrefab: {fileID: 5518787089991406111, guid: c79d54b6ade934045803c874b23bec31, type: 3}
+  castStartFeedbackEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1891093490435502873}
+        m_TargetAssemblyTypeName: MoreMountains.Feedbacks.MMF_Player, MoreMountains.Feedbacks
+        m_MethodName: PlayFeedbacks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  castEndFeedbackEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1891093490435502873}
+        m_TargetAssemblyTypeName: MoreMountains.Feedbacks.MMF_Player, MoreMountains.Feedbacks
+        m_MethodName: StopFeedbacks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6637220243930246143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6326475865577964666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817f2e2c1f9783444bbafeb1fc39a3f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillType: 1
+  SkillName: RoadBlock
+  maxCoolDown: 10
+  maxStack: 3
+  skillIcon: {fileID: 21300000, guid: 966638e24c9da964ab564424a95f78aa, type: 3}
+  RoadBlockPrefab: {fileID: 2821352462270056554, guid: 396f00d20f5ec474db98670e3d726ee9, type: 3}
+  castStartFeedbackEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1891093490435502873}
+        m_TargetAssemblyTypeName: MoreMountains.Feedbacks.MMF_Player, MoreMountains.Feedbacks
+        m_MethodName: PlayFeedbacks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  castEndFeedbackEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1891093490435502873}
+        m_TargetAssemblyTypeName: MoreMountains.Feedbacks.MMF_Player, MoreMountains.Feedbacks
+        m_MethodName: StopFeedbacks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

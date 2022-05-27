@@ -1,0 +1,758 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2055429175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2055429177}
+  - component: {fileID: 2055429176}
+  m_Layer: 11
+  m_Name: CollisionEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2055429177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055429175}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6377189970339502167}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2055429176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055429175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da43522623d4704e979466dc7650b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Feedbacks: []
+  InitializationMode: 2
+  SafeMode: 3
+  Direction: 0
+  AutoChangeDirectionOnEnd: 0
+  AutoPlayOnStart: 0
+  AutoPlayOnEnable: 0
+  DurationMultiplier: 1
+  DisplayFullDurationDetails: 0
+  CooldownDuration: 0
+  InitialDelay: 0
+  CanPlayWhileAlreadyPlaying: 1
+  ChanceToPlay: 100
+  FeedbacksIntensity: 1
+  Events:
+    TriggerMMFeedbacksEvents: 0
+    TriggerUnityEvents: 1
+    OnPlay:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPause:
+      m_PersistentCalls:
+        m_Calls: []
+    OnResume:
+      m_PersistentCalls:
+        m_Calls: []
+    OnRevert:
+      m_PersistentCalls:
+        m_Calls: []
+    OnComplete:
+      m_PersistentCalls:
+        m_Calls: []
+  DebugActive: 0
+  FeedbacksList:
+  - id: 0
+  KeepPlayModeChanges: 0
+  PerformanceMode: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: MMF_ParticlesInstantiation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks}
+      data:
+        Active: 1
+        UniqueID: 1856452197
+        Label: Particles Instantiation
+        Channel: 0
+        Chance: 100
+        DisplayColor: {r: 0, g: 0, b: 0, a: 1}
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        Owner: {fileID: 2055429176}
+        DebugActive: 0
+        Mode: 0
+        CachedRecycle: 1
+        ParticlesPrefab: {fileID: 198063263018073058, guid: d3aa5ccf5c3d6bb4aa6aeb2920558a35, type: 3}
+        RandomParticlePrefabs:
+        - {fileID: 198063263018073058, guid: d3aa5ccf5c3d6bb4aa6aeb2920558a35, type: 3}
+        - {fileID: 198453904978847014, guid: ef79a5ac2d516944bb45eea8a0054109, type: 3}
+        - {fileID: 198728934711372066, guid: 0898b572f28fb32439fbe4be9a9beb52, type: 3}
+        ForceSetActiveOnPlay: 0
+        PositionMode: 0
+        InstantiateParticlesPosition: {fileID: 0}
+        TargetWorldPosition: {x: 0, y: 0, z: 0}
+        Offset: {x: 0, y: 2, z: 0}
+        NestParticles: 0
+        ApplyRotation: 1
+        ApplyScale: 0
+--- !u!1 &2851267732107689971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4145387191266331106}
+  - component: {fileID: 4989626026930399580}
+  m_Layer: 11
+  m_Name: SpeedUpCastEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4145387191266331106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2851267732107689971}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6377189970339502167}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4989626026930399580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2851267732107689971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da43522623d4704e979466dc7650b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Feedbacks: []
+  InitializationMode: 2
+  SafeMode: 3
+  Direction: 0
+  AutoChangeDirectionOnEnd: 0
+  AutoPlayOnStart: 0
+  AutoPlayOnEnable: 0
+  DurationMultiplier: 1
+  DisplayFullDurationDetails: 0
+  CooldownDuration: 0
+  InitialDelay: 0
+  CanPlayWhileAlreadyPlaying: 1
+  ChanceToPlay: 100
+  FeedbacksIntensity: 1
+  Events:
+    TriggerMMFeedbacksEvents: 0
+    TriggerUnityEvents: 1
+    OnPlay:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPause:
+      m_PersistentCalls:
+        m_Calls: []
+    OnResume:
+      m_PersistentCalls:
+        m_Calls: []
+    OnRevert:
+      m_PersistentCalls:
+        m_Calls: []
+    OnComplete:
+      m_PersistentCalls:
+        m_Calls: []
+  DebugActive: 0
+  FeedbacksList:
+  - id: 0
+  - id: 1
+  KeepPlayModeChanges: 0
+  PerformanceMode: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: MMF_ParticlesInstantiation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks}
+      data:
+        Active: 1
+        UniqueID: -996120514
+        Label: Particles Instantiation
+        Channel: 0
+        Chance: 100
+        DisplayColor: {r: 0, g: 0, b: 0, a: 1}
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        Owner: {fileID: 4989626026930399580}
+        DebugActive: 0
+        Mode: 0
+        CachedRecycle: 1
+        ParticlesPrefab: {fileID: 19836958, guid: ede42a52a2caa594dbc67cd13f591f5a, type: 3}
+        RandomParticlePrefabs: []
+        ForceSetActiveOnPlay: 0
+        PositionMode: 0
+        InstantiateParticlesPosition: {fileID: 0}
+        TargetWorldPosition: {x: 0, y: 0, z: 0}
+        Offset: {x: 0, y: 0.1, z: 0}
+        NestParticles: 1
+        ApplyRotation: 0
+        ApplyScale: 0
+    00000001:
+      type: {class: MMF_ParticlesInstantiation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks}
+      data:
+        Active: 1
+        UniqueID: 1739362978
+        Label: Particles Instantiation
+        Channel: 0
+        Chance: 100
+        DisplayColor: {r: 0, g: 0, b: 0, a: 1}
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        Owner: {fileID: 4989626026930399580}
+        DebugActive: 0
+        Mode: 0
+        CachedRecycle: 1
+        ParticlesPrefab: {fileID: 1591680586779899416, guid: 129fdc45f40d29342941bc34213ee406, type: 3}
+        RandomParticlePrefabs: []
+        ForceSetActiveOnPlay: 0
+        PositionMode: 0
+        InstantiateParticlesPosition: {fileID: 0}
+        TargetWorldPosition: {x: 0, y: 0, z: 0}
+        Offset: {x: 0, y: 0, z: 0}
+        NestParticles: 1
+        ApplyRotation: 0
+        ApplyScale: 0
+--- !u!1 &3309226719383068887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 933114104765216636}
+  - component: {fileID: 6136731867938326260}
+  m_Layer: 11
+  m_Name: BozoPushCastEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &933114104765216636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3309226719383068887}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6377189970339502167}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6136731867938326260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3309226719383068887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da43522623d4704e979466dc7650b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Feedbacks: []
+  InitializationMode: 2
+  SafeMode: 3
+  Direction: 0
+  AutoChangeDirectionOnEnd: 0
+  AutoPlayOnStart: 0
+  AutoPlayOnEnable: 0
+  DurationMultiplier: 1
+  DisplayFullDurationDetails: 0
+  CooldownDuration: 0
+  InitialDelay: 0
+  CanPlayWhileAlreadyPlaying: 1
+  ChanceToPlay: 100
+  FeedbacksIntensity: 1
+  Events:
+    TriggerMMFeedbacksEvents: 0
+    TriggerUnityEvents: 1
+    OnPlay:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPause:
+      m_PersistentCalls:
+        m_Calls: []
+    OnResume:
+      m_PersistentCalls:
+        m_Calls: []
+    OnRevert:
+      m_PersistentCalls:
+        m_Calls: []
+    OnComplete:
+      m_PersistentCalls:
+        m_Calls: []
+  DebugActive: 0
+  FeedbacksList:
+  - id: 0
+  - id: 1
+  KeepPlayModeChanges: 0
+  PerformanceMode: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: MMF_ParticlesInstantiation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks}
+      data:
+        Active: 1
+        UniqueID: -996120514
+        Label: Particles Instantiation
+        Channel: 0
+        Chance: 100
+        DisplayColor: {r: 0, g: 0, b: 0, a: 1}
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        Owner: {fileID: 6136731867938326260}
+        DebugActive: 0
+        Mode: 0
+        CachedRecycle: 1
+        ParticlesPrefab: {fileID: 19899212, guid: e3341cd0b29d79a4895de26f271c310d, type: 3}
+        RandomParticlePrefabs: []
+        ForceSetActiveOnPlay: 0
+        PositionMode: 1
+        InstantiateParticlesPosition: {fileID: 5525109336171845864}
+        TargetWorldPosition: {x: 0, y: 0, z: 0}
+        Offset: {x: 0, y: 0, z: 0}
+        NestParticles: 1
+        ApplyRotation: 0
+        ApplyScale: 0
+    00000001:
+      type: {class: MMF_ParticlesInstantiation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks}
+      data:
+        Active: 1
+        UniqueID: 1739362978
+        Label: Particles Instantiation
+        Channel: 0
+        Chance: 100
+        DisplayColor: {r: 0, g: 0, b: 0, a: 1}
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        Owner: {fileID: 6136731867938326260}
+        DebugActive: 0
+        Mode: 0
+        CachedRecycle: 1
+        ParticlesPrefab: {fileID: 1590419895646140671, guid: 5fb8e716d5079f641b7f1e0ef3a9cd5c, type: 3}
+        RandomParticlePrefabs: []
+        ForceSetActiveOnPlay: 0
+        PositionMode: 0
+        InstantiateParticlesPosition: {fileID: 0}
+        TargetWorldPosition: {x: 0, y: 0, z: 0}
+        Offset: {x: 0, y: 0, z: 0}
+        NestParticles: 1
+        ApplyRotation: 0
+        ApplyScale: 0
+--- !u!1001 &7500529568466478104
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2496725074590009179, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: Skill
+      value: 
+      objectReference: {fileID: -809183424107459981}
+    - target: {fileID: 788970734, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1850205708, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644837, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[7].Name
+      value: Death
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[7].Type
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[8].Name
+      value: LargeSpell
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[8].Type
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[9].Name
+      value: PowerUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[9].Type
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[10].Name
+      value: SmallSpell
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[10].Type
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[11].Name
+      value: TargetSpell
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[11].Type
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[12].Name
+      value: GroundSpell
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[12].Type
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[13].Name
+      value: Test
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[13].Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeLayers.Array.data[0].SynchronizeType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[0].SynchronizeType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[7].SynchronizeType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937644839, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[13].SynchronizeType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645860, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_Name
+      value: Bosozuku
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501389943937645860, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936674656892776007, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+      propertyPath: Skill
+      value: 
+      objectReference: {fileID: 6583307973894478884}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+--- !u!1 &6377189970339502396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3501389943937645860, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+  m_PrefabInstance: {fileID: 7500529568466478104}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6377189970339502167 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3501389943937645647, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+  m_PrefabInstance: {fileID: 7500529568466478104}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5525109336171845864 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2646456652612877552, guid: c5f72df00c312bf46b8c054fa842f535, type: 3}
+  m_PrefabInstance: {fileID: 7500529568466478104}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-809183424107459981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6377189970339502396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 327526dfb7fed014288b315f52e07329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillType: 0
+  SkillName: SpeedUp
+  maxCoolDown: 15
+  maxStack: 0
+  skillIcon: {fileID: 21300000, guid: fcddc749909f0a04081383521aa35ec8, type: 3}
+  buffDuration: 7
+  buffedSpeed: 10
+  castStartFeedbackEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4989626026930399580}
+        m_TargetAssemblyTypeName: MoreMountains.Feedbacks.MMF_Player, MoreMountains.Feedbacks
+        m_MethodName: PlayFeedbacks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  buffEndFeedbackEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4989626026930399580}
+        m_TargetAssemblyTypeName: MoreMountains.Feedbacks.MMF_Player, MoreMountains.Feedbacks
+        m_MethodName: StopFeedbacks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6583307973894478884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6377189970339502396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e6a1c0cbd5af24eb0a3b18e2e52d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillType: 0
+  SkillName: BozoPush
+  maxCoolDown: 60
+  maxStack: 0
+  skillIcon: {fileID: 21300000, guid: c4192333dc1c09c40bae2ec9e920b644, type: 3}
+  pushLayers:
+    serializedVersion: 2
+    m_Bits: 3136
+  canPush: 0
+  strength: 50
+  damage: 50
+  buffDuration: 10
+  castStartFeedbackEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6136731867938326260}
+        m_TargetAssemblyTypeName: MoreMountains.Feedbacks.MMF_Player, MoreMountains.Feedbacks
+        m_MethodName: PlayFeedbacks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  collisionFeedbackEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2055429176}
+        m_TargetAssemblyTypeName: MoreMountains.Feedbacks.MMF_Player, MoreMountains.Feedbacks
+        m_MethodName: PlayFeedbacks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  buffEndFeedbackEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6136731867938326260}
+        m_TargetAssemblyTypeName: MoreMountains.Feedbacks.MMF_Player, MoreMountains.Feedbacks
+        m_MethodName: StopFeedbacks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

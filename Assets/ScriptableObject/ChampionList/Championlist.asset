@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0201699712107942a4beaf6dfc543be, type: 3}
+  m_Name: Championlist
+  m_EditorClassIdentifier: 
+  Champions:
+  - {fileID: 11400000, guid: 8805a5bb056365a47af9c716c0fdff8a, type: 2}
+  - {fileID: 11400000, guid: a6865035177e32f40b8340c388cb8626, type: 2}
+  - {fileID: 11400000, guid: e927dadfa9121ef4a8b379f1b3ec7b54, type: 2}
+  - {fileID: 11400000, guid: 7a029579486b0d74cba4f34388ec8484, type: 2}

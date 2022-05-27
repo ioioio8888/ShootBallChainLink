@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48463d72613dee0429e181a8a2b6dae0, type: 3}
+  m_Name: Bosozoku
+  m_EditorClassIdentifier: 
+  ChampionID: 1
+  ChampionType: 0
+  ChampionName: Bosozoku
+  ChampionIcon: {fileID: 21300000, guid: 5ce4c97d2628b2a47a698e9fbc6272cd, type: 3}
+  ChampionInGamePlayer: {fileID: 6377189970339502396, guid: d02c7b58d15dba44e889a9c39e18409c, type: 3}

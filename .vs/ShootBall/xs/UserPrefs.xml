@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{A420E9C4-BEA9-80A0-B400-EEE25ABD69A3}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FacebookSDK/Plugins/Editor/Dependencies.xml">
+    <Files>
+      <File FileName="Assets/Scripts/Auth/InitManager.cs" Line="14" Column="37" />
+      <File FileName="Assets/PlayFabAuthService.cs" />
+      <File FileName="Assets/FacebookSDK/Examples/Scripts/MenuBase.cs" Line="29" Column="1" />
+      <File FileName="Assets/FacebookSDK/Plugins/Editor/Dependencies.xml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ShootBall" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="FacebookSDK" expanded="True">
+                <Node name="Examples" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+                <Node name="Plugins" expanded="True">
+                  <Node name="Editor" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Auth" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="453da284-2128-41a4-8f3c-f768ca3eeb11" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
