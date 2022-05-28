@@ -17,7 +17,7 @@ Left Click - Charge To High kick
 
 ## Get Started
 At least two people to test the game. It is a multiplayer game.
-Prerequisite: a browser with a wallet supports web3(with some Kovan testnet eth ~0.01eth) and connect to Ethereum Kovan Testnet(Recommend to use metaMask)
+Prerequisite: a PC browser with a wallet supports web3(with some Kovan testnet eth ~0.01eth) and connect to Ethereum Kovan Testnet(Recommend to use metaMask)
 
 1. Go to the link https://ioioio8888.github.io/ShootBallChainLink/
 2. Select the region on the top-right corner, which has to be the same as your testing partners.
